@@ -1,6 +1,6 @@
 ##Import Data
 
-File_Path <- "c:/users/mg185234/Documents/R/household_power_consumption.txt"
+File_Path <- "c:/users/Mark/Documents/R/household_power_consumption.txt"
 Power_Data <- read.table(File_Path, header = TRUE, sep = ";")
 
 ##Convert Date into R date format
